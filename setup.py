@@ -13,6 +13,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="LGPLv2.1",
+    keywords="omniidl omniiorb corba orb",
     url="http://omniorb.sourceforge.net/",
     packages=find_packages(),
     classifiers=[
