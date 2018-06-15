@@ -7,8 +7,8 @@ with open("README.md", "r") as fh:
 setup(
     name="omniidl",
     version="4.2.2",
-    author="Kevin Kuehler",
-    author_email="Kevin.Kuehler@viasat.com",
+    author="Kevin Kuehler, Tommy Yuan",
+    author_email="Kevin.Kuehler@viasat.com, Tommy.Yuan@viasat.com",
     description="omniidl library for writing backends",
     long_description=long_description,
     long_description_content_type="text/markdown",
