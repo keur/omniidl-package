@@ -8,5 +8,5 @@ http://omniorb.sourceforge.net/
 
 For testing I recommend setting up a python virtual environment
 and running `pip install .` in the root of the directory. Once
-you activate the virtual environment, import omniidl should work
+you activate the virtual environment, `import omniidl` should work
 with no errors.
