@@ -7,8 +7,8 @@ with open("README.md", "r") as fh:
 setup(
     name="omniidl",
     version="4.2.2",
-    author="Kevin Kuehler, Tommy Yuan",
-    author_email="Kevin.Kuehler@viasat.com, Tommy.Yuan@viasat.com",
+    author="Kevin Kuehler",
+    author_email="keur@ocf.berkeley.edu",
     description="omniidl library for writing backends",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -18,8 +18,6 @@ setup(
     scripts=['bin/omniidl'],
     packages=find_packages(),
     include_package_data=True,
-    package_dir={'omniidl': 'omniidl'},
-    package_data={'omniidl': ['dat']},
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
